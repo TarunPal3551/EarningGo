@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.avilaksh.earningo.DeleteUser_Activity">
+
+    <com.github.irvingryan.VerifyCodeView
+        android:id="@+id/textViewOtp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textviewverificationdetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:vcTextColor="@color/colorPrimary"
+        app:vcTextSize="6" />
+
+    <Button
+        android:id="@+id/buttondelete"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/blue_button_border"
+        android:text="Delete Account"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonresend"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Resend Verification Code?"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttondelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Timer"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textviewverificationdetail"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Verification code has been sent to 7906870762 via SMS"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOtp"
+        android:layout_centerHorizontal="true"
+
+        android:indeterminateTint="@color/colorPrimary" />
+</RelativeLayout>

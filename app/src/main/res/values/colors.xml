@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"> #0083CB</color>
+    <color name="colorPrimaryDark">#065a88</color>
+    <color name="pageindicatorinvisible">#6bb3db</color>
+    <color name="colorAccent">#000000</color>
+    <color name="bgBottomNavigation">#2196F3</color>
+    <color name="active_dots">#0083CB</color>
+    <color name="inactive_dots">#000000</color>
+    <color name="menu">#FFFFFF</color>
+    <color name="active">#FFFFFF</color>
+    <color name="toggle">#B5BEB2</color>
+    <color name="topactionbarcolor">#0083CB</color>
+</resources>

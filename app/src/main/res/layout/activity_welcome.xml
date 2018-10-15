@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avilaksh.earningo.WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/loginsectionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+
+            </android.support.v4.view.ViewPager>
+
+
+            <LinearLayout
+                android:id="@+id/dotslayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/viewpager"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loginsection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lay1"
+            android:background="@color/colorPrimary"
+            android:visibility="visible">
+
+            <!--<EditText-->
+            <!--android:id="@+id/edittextloginmobilenumber"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="27dp"-->
+            <!--android:background="@drawable/border"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="center"-->
+            <!--android:hint="Enter your 10 digit's PayTm number"-->
+            <!--android:inputType="phone"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textColorHint="@android:color/white" />-->
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/googlesigninbutton"
+                android:layout_width="337dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:visibility="visible">
+
+
+            </com.google.android.gms.common.SignInButton>
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="337dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/button_border"
+                android:text="Signin With Google"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/checkBoxlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/googlesigninbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="85dp"
+                android:layout_height="61dp"
+                android:layout_above="@+id/checkBoxlogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-50dp"
+                android:indeterminate="true"
+                android:indeterminateTint="#ffffff"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    </RelativeLayout>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/textView27"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#ee7600"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/totalearn_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:text="30000"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="68dp"
+                    android:text="Total Coins"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/card1"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/card1"
+                app:cardBackgroundColor="#00bfff"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/today_earn_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:text="600"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="68dp"
+                    android:text="Today's Earn"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/card1"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/card2"
+                app:cardBackgroundColor="#32cd32"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/today_click_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:text="1000"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="68dp"
+                    android:text="Today's Clicks"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textViewlastlogindate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/card1"
+                android:layout_marginTop="11dp"
+                android:text="May 11,  2018"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textViewlastlogindate"
+                android:layout_below="@+id/textViewlastlogindate"
+                android:layout_marginTop="0dp"
+                android:text="Your last login date"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seprator">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="11dp"
+                    android:text="SPONSORED OFFERS"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView34"
+                    android:layout_below="@+id/textView34"
+                    android:text="Click on the below sponsored offers to earn free coins"
+                    android:textAlignment="textStart"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewsponsoredhelp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/textView34"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/textView34"
+                    android:tint="	#A9A9A9"
+                    app:srcCompat="@drawable/ic_action_help" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/vediocard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/textView35"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/watch_and_earn"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            app:srcCompat="@drawable/wathandearn" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="85dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Watch and Earn "
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/watchandearnbody"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/textView36"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="35dp"
+                            android:paddingBottom="5dp"
+                            android:text="Watch video ads and earn +5 coins" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/vediocard2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/vediocard1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/play_earn_spin_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            app:srcCompat="@drawable/spinandearn" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="85dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Play and earn"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/textView38"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="35dp"
+                            android:paddingBottom="5dp"
+                            android:text="Play and earn unlimited free coins" />
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/vediocard2"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/activity_bonus"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="20dp"
+                            app:srcCompat="@drawable/dailybonus" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="85dp"
+                            android:layout_marginTop="10dp"
+                            android:text="MY DAILY BONUS"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/dailybonusbody"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/textView40"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="35dp"
+                            android:text=" Click here to earn +10 coins daily" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar3"
+                android:layout_width="82dp"
+                android:layout_height="68dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="105dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorPrimary"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seprator"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rel1"
+            android:background="#cdc9c9">
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

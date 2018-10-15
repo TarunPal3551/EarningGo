@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "110706985796",
+    "firebase_url": "https://earningo-1533569612246.firebaseio.com",
+    "project_id": "earningo-1533569612246",
+    "storage_bucket": "earningo-1533569612246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110706985796:android:03661a1b36750e43",
+        "android_client_info": {
+          "package_name": "com.avilaksh.earningo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110706985796-ngki6ra96ulg63bmhkhlggn9f1dvauge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avilaksh.earningo",
+            "certificate_hash": "3d7ca359740030a72f24a4ff1eda1229e8e09e09"
+          }
+        },
+        {
+          "client_id": "110706985796-l41lgt6phc63g5u3i8em2f53nvildskq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avilaksh.earningo",
+            "certificate_hash": "eb1e7720b6f44aa7ce53928cf77b19eae94e322f"
+          }
+        },
+        {
+          "client_id": "110706985796-jt38lq248a5epo64mfolql26sno8m829.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIj7W31SVvcZQRMvfqhwWsP1rH5yhVgqo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110706985796-jt38lq248a5epo64mfolql26sno8m829.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

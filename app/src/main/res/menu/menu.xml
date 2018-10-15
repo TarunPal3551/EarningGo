@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.avilaksh.tejaswini.earninggo.Home_Main_Activity">
+    <item
+        android:id="@+id/menuNotification"
+        android:title="Notification"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/menuDeleteAccount"
+        android:title="Delete Account"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/checkupdate"
+        android:title="Check for Update"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+
+
+    
+</menu>

@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">EarninGo</string>
+    <string name="my_preference_key" />
+    <string name="my_preference" />
+    <string name="Play">Play and Earn</string>
+    <string name="watch">Watch and Earn</string>
+    <string name="install">Install and Earn</string>
+    <string name="payouts">Redeem and Earn</string>
+    <string name="redeem">Redeem</string>
+    <string name="setting">Setting</string>
+    <string name="wallet">Wallet</string>
+    <string name="offer">Offer</string>
+    <string name="notification_channel_id">default</string>
+    <string name="pollfishsurvey1">Survey Serving Technology</string>
+    <string name="pollfishsurvey2">This app uses Pollfish SDK. Pollfish is an on-line survey platform, through which, anyone may conduct surveys. Pollfish collaborates with Developers of applications for smartphones in order to have access to users of such applications and address survey questionnaires to them. When a user connects to this app, a specific set of user’s device data (including Advertising ID which will may be processed by Pollfish only in strict compliance with google play policies- and/or other device data) and response meta-data (including information about the apps which the user has installed in his mobile phone) is automatically sent to Pollfish servers, in order for Pollfish to discern whether the user is eligible for a survey. For a full list of data received by Pollfish through this app, please read carefully Pollfish respondent terms located at https://www.pollfish.com/terms/respondent. These data will be associated with your answers to the questionnaires whenever Pollfish sents such questionnaires to eligible users. By downloading the application you accept this privacy policy document and you hereby give your consent for the processing by Pollfish of the aforementioned data. Furthermore, you are informed that you may disable Pollfish operation at any time by using the Pollfish “opt out section” available on Pollfish website . We once more invite you to check the respondent’s terms of use, if you wish to have more detailed view of the way Pollfish works.</string>
+   <string name="pollfishsurvey3">APPLE, GOOGLE AND AMAZON ARE NOT A SPONSOR NOR ARE INVOLVED IN ANY WAY IN THIS CONTEST/DRAW. NO APPLE PRODUCTS ARE BEING USED AS PRIZES.</string>
+
+    <string name="welcomescreen_checked_box">I Accept the <b>Terms of use</b> and <b>Payout policy</b></string>
+    <string name="termofusemainhead">This terms of use has been modified and updated on 31st July 2018. For any violation of this terms of use, user will be black listed by the admin any point of time without any prior notice and user cannot claim for any pending redeem request or wallet balance.</string>
+    <string name="term_of_use1">
+User needs to use the phone number which is linked with PayTm to Sign up.
+    </string>
+    <string name="term_of_use2">
+        Users need to watch the complete video ads to earn coins.
+
+    </string>
+    <string name="term_of_use3">
+Users need to install at least 3 apps daily to get the payment.
+    </string>
+    <string name="term_of_use4">
+        Users need to complete the Surveys with correct answers to earn extra spins and videos.
+
+    </string>
+    <string name="term_of_use5">
+         Daily bonus will be credited only once in 24 hrs after clicking on the button.
+
+    </string>
+    <string name="term_of_use6">
+        For every video ads users will get +5 coins automatically into wallet.
+
+    </string>
+    <string name="term_of_use7">
+        Users can watch 5 videos continuously and then have to complete a survey for extra videos.
+
+    </string>
+    <string name="term_of_use8">
+         Users can Spin the wheel for 5 times and then have to complete a survey for extra spins.
+
+
+    </string>
+    <string name="term_of_use9">
+        Users will not get any extra coins for the completed surveys.
+
+
+    </string>
+    <string name="term_of_use10">
+        All the videos and surveys belongs to 3rd parties, hence for any discrepancies we are not liable for that.
+
+    </string>
+    <string name="term_of_use11">
+         In any circumstances, if any kind of technical issue occurred then user account can be removed or deleted.
+
+    </string>
+    <string name="term_of_use12">
+        This application is loading high graphics video ads which needs high speed internet connectivity.
+
+    </string>
+    <string name="term_of_use13">
+        In order to load the Surveys users need to wait for a while until it appears on the screen.
+
+    </string>
+    <string name="term_of_use14">
+        If a User deletes his/her account then all the coins in his/her wallet will no longer exists.
+    </string>
+    <string name="term_of_use15">
+       if we find multiple account deletion and activation using same phone number then the account can be blocked or removed without any prior notice and user will not receive any payout against any pending redeem request.
+    </string>
+    <string name="term_of_use16">
+        Once an user gets deactivated or blocked is not eligible for any further usage of the app.
+    </string>
+    <string name="payout_policy_mainhead">
+        This payout policy has been modified and updated on 31st July 2018. Any violation of the payout policy, users will not receive any payment against the redeem request and the user account can be blocked or removed by admin without any prior notice.
+    </string>
+    <string name="payout_policy1">
+       Users can redeem their coins only after reaching the milestone of +50,000 coins.
+   </string>
+    <string name="payout_policy2">
+        User need to raise a Redeem request from the My Account tab.
+
+    </string>
+    <string name="payout_policy3">
+         After clicking on Redeem Request option, payout request will be automatically submitted.
+
+    </string>
+
+    <string name="payout_policy4">
+        After successful redeem user will get Rs. 20 on or after 5 days from the date of successful redeem request.
+
+    </string>
+
+    <string name="payout_policy5">
+        Payout ammout will be transferred to linked PayTm account only.
+
+    </string>
+    <string name="payout_policy6">
+         None of the alternate PayTm number will be accepted for the payout.
+
+    </string>
+    <string name="payout_policy7">
+            As per PayTm policy users must have done their KCY\'s to receive the payment.
+
+    </string>
+    <string name="payout_policy8">
+ If the user\'s PayTm KYC is not done successfully then the payout will be rejected for particular redeem request.
+    </string>
+    <string name="payout_policy9">
+        Once a Redeem request gets rejected users will not get paid for that particular redeem request.
+
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
